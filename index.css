@@ -1,0 +1,62 @@
+/* SASS, BOOTSTRAP */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  margin: 0;
+}
+
+/* #wrapper {
+  background-color: orangered;
+} */
+
+#quote-box {
+  padding: 5vh;
+  border-radius: 5px;
+  position: relative;
+  width: 50vw;
+  margin-bottom: 20vh;
+  margin-top: 20vh;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: orange;
+}
+
+.quote-text {
+  text-align: center;
+  color: white;
+  font-family: "Abril Fatface", cursive;
+  font-size: calc(3vh + 20px);
+}
+
+.quote-author {
+  color: white;
+  margin-top: 4vh;
+  text-align: right;
+  font-family: "Dancing Script", cursive;
+  font-size: calc(3vh + 20px);
+}
+
+.button {
+  height: max-content;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 8px 18px;
+  margin-top: 40px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#new-quote {
+  float: right;
+  font-size: 4vh;
+}
+
+a {
+  color: inherit;
+  font-size: 5vh;
+}
